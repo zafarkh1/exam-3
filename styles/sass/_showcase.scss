@@ -1,0 +1,35 @@
+section#showcase {
+	// background-color: green;
+	padding-block: 5rem;
+	.collections {
+		h1 {
+			font-weight: 300;
+		}
+		p {
+			width: 400px;
+			color: black;
+			margin-bottom: 2rem;
+		}
+		a {
+			all: unset;
+			box-sizing: border-box;
+			padding: 0.9rem 1.4rem;
+			background-color: black;
+			color: white;
+			border-radius: 8px;
+			&:hover {
+				box-shadow: 0 0 20px rgba(128, 128, 128, 0.519);
+			}
+			&:active {
+				box-shadow: 0 0 20px rgba(128, 128, 128, 0.219);
+				transform: scale(0.8);
+			}
+		}
+	}
+	.showcase-img {
+		img {
+		max-width: 90%;
+		max-height: 90%;
+		}
+	}
+}
